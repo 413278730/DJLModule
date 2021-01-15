@@ -1,0 +1,6 @@
+framework module DJLModule {
+  umbrella header "DJLModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

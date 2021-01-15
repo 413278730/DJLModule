@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DJLModule_Example' do
+  pod 'DJLModule', :path => '../'
+
+  target 'DJLModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
