@@ -1,5 +1,5 @@
 PODS:
-  - DJLModule (0.1.0)
+  - DJLModule (1.1.0)
 
 DEPENDENCIES:
   - DJLModule (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DJLModule: 53a6c8e779a05ba2636b8e8b68494be01392aee8
+  DJLModule: a5afe97200ced8d66e5e635426c008c85052bf26
 
 PODFILE CHECKSUM: fc6399e015be470b02bf2a483dae7f5dfc9a7f83
 

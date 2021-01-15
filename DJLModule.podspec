@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DJLModule'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '我的基础组件库'
 
 # This description is used to generate tags and improve search results.
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'DJLModule/Classes/**/*'
   
-  s.resource_bundles = {
-    'DJLModule' => ['DJLModule/Assets/**/*']
-  }
+  # s.resource_bundles = {
+  #   'DJLModule' => ['DJLModule/Assets/**/*']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

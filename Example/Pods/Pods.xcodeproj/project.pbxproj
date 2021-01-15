@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C4F09913B31D2C3E205143DF3F7A62 /* TimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8341F393115B23C87C91FE99BE17D111 /* TimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C57ABDB6E8C21AB193B83A16BADEAE6 /* Pods-DJLModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8C9A60807F7B50EBB6B83DAE66521 /* Pods-DJLModule_Example-dummy.m */; };
-		2730E978113F6AAF4B6F8574756A3CDC /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E844410761ABAB56CAE2B5A9D1764C66 /* TimeUtil.m */; };
-		36D1D25B289043C95CC007055330659E /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EE758D9E7D7A9D378F3CF68A7F570F /* StringUtil.m */; };
-		80B373D0CEBD9E5116713B672E304077 /* DJLModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FBE07FC7ED6A94E974CC0D017C35C6 /* DJLModule-dummy.m */; };
+		38221B54ECD0617CCD3F5BD682DC1984 /* TimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBDFF19D909F43BB5510FCC121F29 /* TimeUtil.m */; };
+		4A6FA995B4BC8B421B885497E50F104F /* ACCountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CBEE2037642DD291F14479B722A0CD /* ACCountDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52484C303A6CC6F2AF24C3480216BBB7 /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0F5E8534029CE5A2374BEDF0AF453A /* StringUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF839BF0A3AA31F020337C9D41BE213 /* ACCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B5816825C7BAC4623B4D0D55C61DCB /* ACCountDown.m */; };
 		867A25507E5C4FC342A2402B6EE23B74 /* Pods-DJLModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D94DA4408F7EF4230B62847E07D47 /* Pods-DJLModule_Tests-dummy.m */; };
-		975438256B908EFAC7FEF102C6FCFE61 /* DJLModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DBBA1736A950B197445F97D2FBA04F /* DJLModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B2A2CE6F82F6FB93CF854267DFEA290 /* DJLModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F140A7945F4D17C7A34FAF2E424B45DD /* DJLModule-dummy.m */; };
 		A496C4C9D0F5341D14EF3E0AA48F9A18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B3B0BB8EF2A33F8EF7263F70B3340EE5 /* Pods-DJLModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2AE9B24493BA5612ED82EA9EF26700D /* Pods-DJLModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B93A270BCB3ED068DD54540491FB18CB /* StringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E1053F9EC92298A22412B8A48D28AEF0 /* StringUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCA3FCD9E61EDA8B43F6E38BBF60A32 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B80B03A09272FCE863DB6DBCBCCF62D /* StringUtil.m */; };
+		C19E810B62F83C3DCDA7CD4C3571303A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D514AFCA97FD88072B53EE62B643C70D /* Pods-DJLModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF9EA93EEF464060F790E59B9E6CB28 /* Pods-DJLModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D79A18E612AF2AE58900C2C7BEDADDE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EB6C2E3335378563A9E2418E1D17EF65 /* TimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = EF489E267A46C4871D7288E6EFF095A7 /* TimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE882598B9C42DF0162C09A164177D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FE1ED346C29DD189F3F92699E41E0979 /* DJLModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C422408D0E4CC5B523C06CD587AECB4F /* DJLModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		024F4ADD438AF4D112D448E84A27D2FC /* PBXContainerItemProxy */ = {
+		ABC215DD0D0BB82A9CDF1503B51BCD2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 44CFF9C6D78044C770C1A90B8038C9A2;
 			remoteInfo = DJLModule;
 		};
-		8358EE1031A2824842567AFED2C33556 /* PBXContainerItemProxy */ = {
+		E82CD00FA366C3B6AE1E5502B9AE819F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,41 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01DBBA1736A950B197445F97D2FBA04F /* DJLModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJLModule-umbrella.h"; sourceTree = "<group>"; };
+		02B5816825C7BAC4623B4D0D55C61DCB /* ACCountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACCountDown.m; path = DJLModule/Classes/ACCountDown.m; sourceTree = "<group>"; };
 		0482FA5C94D6FF4A30ABDBBD5D7D2D7F /* Pods-DJLModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJLModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0E2CE496C6EB8DC3560771A739D5733A /* Pods-DJLModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJLModule_Example.modulemap"; sourceTree = "<group>"; };
-		1470C2B38AF6BADF662C10173D9A59E0 /* DJLModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJLModule.debug.xcconfig; sourceTree = "<group>"; };
 		2AF9EA93EEF464060F790E59B9E6CB28 /* Pods-DJLModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJLModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3421CA2702015B5D0D6FA62F43A3D9EE /* Pods-DJLModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJLModule_Example-Info.plist"; sourceTree = "<group>"; };
 		37F3DB4E613FA04DC9E607FCCD04AD4B /* Pods-DJLModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJLModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		396106913DF05C453234427B6A34D865 /* DJLModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJLModule-prefix.pch"; sourceTree = "<group>"; };
 		46F8C9A60807F7B50EBB6B83DAE66521 /* Pods-DJLModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJLModule_Example-dummy.m"; sourceTree = "<group>"; };
+		478418F313DC238F2EB623F280EAA245 /* DJLModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJLModule.debug.xcconfig; sourceTree = "<group>"; };
 		512874BD093BD38E84F7221B9D34FA48 /* Pods-DJLModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJLModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		524A46EF55F4A39A9451E07CD3510B2B /* DJLModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJLModule.release.xcconfig; sourceTree = "<group>"; };
+		528171C5771591E3E311A8F15D03A6FD /* DJLModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJLModule-prefix.pch"; sourceTree = "<group>"; };
 		55ADA75B55555E217D8539BD359D3579 /* Pods-DJLModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJLModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		693F0D29B140D5A575514B489F2CD795 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6B80B03A09272FCE863DB6DBCBCCF62D /* StringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StringUtil.m; path = DJLModule/Classes/StringUtil.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7903F67FC9D2B6A500EF917694AB15AD /* Pods-DJLModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DJLModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A35FED656AC385298305789C3461CC8 /* DJLModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DJLModule-Info.plist"; sourceTree = "<group>"; };
 		7D09625E9B4D3FADD5D6BC21C2F5B98E /* Pods_DJLModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJLModule_Example.framework; path = "Pods-DJLModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8341F393115B23C87C91FE99BE17D111 /* TimeUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeUtil.h; path = DJLModule/Classes/TimeUtil.h; sourceTree = "<group>"; };
 		87A4724DA9CE8635404B2BF17E9CC3F3 /* Pods_DJLModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DJLModule_Tests.framework; path = "Pods-DJLModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C9FEEAB360C968E2CBF76597F8F904D /* DJLModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DJLModule-Info.plist"; sourceTree = "<group>"; };
-		8DC723924EB2CE52C3B42402E4DAEB9F /* DJLModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DJLModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BCDBDFF19D909F43BB5510FCC121F29 /* TimeUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimeUtil.m; path = DJLModule/Classes/TimeUtil.m; sourceTree = "<group>"; };
 		8E333B9CC360A81C97CE4D0A257331A7 /* Pods-DJLModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJLModule_Tests-Info.plist"; sourceTree = "<group>"; };
 		927D67D3DDFB38555AA5B85C54A9001B /* Pods-DJLModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DJLModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9A1AE91AC1805AE481BB30393C7C8341 /* Pods-DJLModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJLModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A2C2CFCFC2FE8245B2B9FBBA1B4E3FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A36529DA34CF233D5FA20CF360712C39 /* DJLModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DJLModule.release.xcconfig; sourceTree = "<group>"; };
-		A3FBE07FC7ED6A94E974CC0D017C35C6 /* DJLModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJLModule-dummy.m"; sourceTree = "<group>"; };
+		A5CBEE2037642DD291F14479B722A0CD /* ACCountDown.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACCountDown.h; path = DJLModule/Classes/ACCountDown.h; sourceTree = "<group>"; };
 		A82D94DA4408F7EF4230B62847E07D47 /* Pods-DJLModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DJLModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD654FEE2F8312F0B181B0FBF495E0AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B2AE9B24493BA5612ED82EA9EF26700D /* Pods-DJLModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DJLModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		B55279532750D80B765785BC1539CCCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B8CDCB288AC7DF349E55B74AD4091CAD /* DJLModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJLModule.modulemap; sourceTree = "<group>"; };
 		C21D210D5BA15C119545C86AA65D9B02 /* DJLModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DJLModule.framework; path = DJLModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8EE758D9E7D7A9D378F3CF68A7F570F /* StringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StringUtil.m; path = DJLModule/Classes/StringUtil.m; sourceTree = "<group>"; };
-		E1053F9EC92298A22412B8A48D28AEF0 /* StringUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = DJLModule/Classes/StringUtil.h; sourceTree = "<group>"; };
+		C422408D0E4CC5B523C06CD587AECB4F /* DJLModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DJLModule-umbrella.h"; sourceTree = "<group>"; };
+		C4CBADCA488E2D9DB3AB06AFE684971C /* DJLModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DJLModule.modulemap; sourceTree = "<group>"; };
+		CD0F5E8534029CE5A2374BEDF0AF453A /* StringUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringUtil.h; path = DJLModule/Classes/StringUtil.h; sourceTree = "<group>"; };
 		E572D8E2FB762CA82E961813E01EBD48 /* Pods-DJLModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DJLModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E844410761ABAB56CAE2B5A9D1764C66 /* TimeUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TimeUtil.m; path = DJLModule/Classes/TimeUtil.m; sourceTree = "<group>"; };
+		EB1598244CA40A84D18BD1705E26A6AB /* DJLModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DJLModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECEF32A2EDF98C0E42E2EAE32E186B2C /* Pods-DJLModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DJLModule_Tests.modulemap"; sourceTree = "<group>"; };
-		EF489E267A46C4871D7288E6EFF095A7 /* TimeUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimeUtil.h; path = DJLModule/Classes/TimeUtil.h; sourceTree = "<group>"; };
+		F140A7945F4D17C7A34FAF2E424B45DD /* DJLModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DJLModule-dummy.m"; sourceTree = "<group>"; };
 		FBA449B64808638CCD44D44F68AEEE07 /* Pods-DJLModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DJLModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,19 +91,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72DA42838A6A42ED6CA73FDB0327FA72 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D79A18E612AF2AE58900C2C7BEDADDE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7994DE0FC7A06ADCEC73A782ABBF18A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A496C4C9D0F5341D14EF3E0AA48F9A18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69AD9F1ECF42649B7F861370D596A6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C19E810B62F83C3DCDA7CD4C3571303A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,14 +127,6 @@
 			path = "Target Support Files/Pods-DJLModule_Example";
 			sourceTree = "<group>";
 		};
-		21A5DB0FCC38C8CB9FC4884472B93B87 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AC0A397D78A4347D6C85542010EC5439 /* DJLModule */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		25DBA0E5009F6E77BF1C6E67802EBAD4 /* Pods-DJLModule_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +143,21 @@
 			path = "Target Support Files/Pods-DJLModule_Tests";
 			sourceTree = "<group>";
 		};
+		3A39D741AEE417CEBF08C20653CE88FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBADCA488E2D9DB3AB06AFE684971C /* DJLModule.modulemap */,
+				F140A7945F4D17C7A34FAF2E424B45DD /* DJLModule-dummy.m */,
+				7A35FED656AC385298305789C3461CC8 /* DJLModule-Info.plist */,
+				528171C5771591E3E311A8F15D03A6FD /* DJLModule-prefix.pch */,
+				C422408D0E4CC5B523C06CD587AECB4F /* DJLModule-umbrella.h */,
+				478418F313DC238F2EB623F280EAA245 /* DJLModule.debug.xcconfig */,
+				524A46EF55F4A39A9451E07CD3510B2B /* DJLModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DJLModule";
+			sourceTree = "<group>";
+		};
 		499AD1D74934C4F05ED7BE6B05891000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,16 +168,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D21C1C0EAD8442044B907930C4684B5 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8DC723924EB2CE52C3B42402E4DAEB9F /* DJLModule.podspec */,
-				B55279532750D80B765785BC1539CCCE /* LICENSE */,
-				693F0D29B140D5A575514B489F2CD795 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,18 +176,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AC0A397D78A4347D6C85542010EC5439 /* DJLModule */ = {
+		62E9FA5281DE223F99771D0DECAF1FEE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E1053F9EC92298A22412B8A48D28AEF0 /* StringUtil.h */,
-				C8EE758D9E7D7A9D378F3CF68A7F570F /* StringUtil.m */,
-				EF489E267A46C4871D7288E6EFF095A7 /* TimeUtil.h */,
-				E844410761ABAB56CAE2B5A9D1764C66 /* TimeUtil.m */,
-				4D21C1C0EAD8442044B907930C4684B5 /* Pod */,
-				FB6216BAD9BCB52DE86D60B155BC72EE /* Support Files */,
+				EB1598244CA40A84D18BD1705E26A6AB /* DJLModule.podspec */,
+				9A2C2CFCFC2FE8245B2B9FBBA1B4E3FC /* LICENSE */,
+				AD654FEE2F8312F0B181B0FBF495E0AE /* README.md */,
 			);
-			name = DJLModule;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7B3FCBC8DE919DAF414D8EE1FD28D457 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1BAEB7F3A7E21494F1AA1B3554E52 /* DJLModule */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C4E49F69E915C926AC9E8982F4244330 /* Targets Support Files */ = {
@@ -198,11 +203,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CDA1BAEB7F3A7E21494F1AA1B3554E52 /* DJLModule */ = {
+			isa = PBXGroup;
+			children = (
+				A5CBEE2037642DD291F14479B722A0CD /* ACCountDown.h */,
+				02B5816825C7BAC4623B4D0D55C61DCB /* ACCountDown.m */,
+				CD0F5E8534029CE5A2374BEDF0AF453A /* StringUtil.h */,
+				6B80B03A09272FCE863DB6DBCBCCF62D /* StringUtil.m */,
+				8341F393115B23C87C91FE99BE17D111 /* TimeUtil.h */,
+				8BCDBDFF19D909F43BB5510FCC121F29 /* TimeUtil.m */,
+				62E9FA5281DE223F99771D0DECAF1FEE /* Pod */,
+				3A39D741AEE417CEBF08C20653CE88FB /* Support Files */,
+			);
+			name = DJLModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				21A5DB0FCC38C8CB9FC4884472B93B87 /* Development Pods */,
+				7B3FCBC8DE919DAF414D8EE1FD28D457 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				499AD1D74934C4F05ED7BE6B05891000 /* Products */,
 				C4E49F69E915C926AC9E8982F4244330 /* Targets Support Files */,
@@ -217,39 +238,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FB6216BAD9BCB52DE86D60B155BC72EE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8CDCB288AC7DF349E55B74AD4091CAD /* DJLModule.modulemap */,
-				A3FBE07FC7ED6A94E974CC0D017C35C6 /* DJLModule-dummy.m */,
-				8C9FEEAB360C968E2CBF76597F8F904D /* DJLModule-Info.plist */,
-				396106913DF05C453234427B6A34D865 /* DJLModule-prefix.pch */,
-				01DBBA1736A950B197445F97D2FBA04F /* DJLModule-umbrella.h */,
-				1470C2B38AF6BADF662C10173D9A59E0 /* DJLModule.debug.xcconfig */,
-				A36529DA34CF233D5FA20CF360712C39 /* DJLModule.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DJLModule";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0BDD1527750821C55BA0E0F3687B7295 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6FA995B4BC8B421B885497E50F104F /* ACCountDown.h in Headers */,
+				FE1ED346C29DD189F3F92699E41E0979 /* DJLModule-umbrella.h in Headers */,
+				52484C303A6CC6F2AF24C3480216BBB7 /* StringUtil.h in Headers */,
+				07C4F09913B31D2C3E205143DF3F7A62 /* TimeUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4AE4443BF3AEDAD7CD3F252B560FBC8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D514AFCA97FD88072B53EE62B643C70D /* Pods-DJLModule_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6DD6881D26B07DA600FA0F157ED6D4C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				975438256B908EFAC7FEF102C6FCFE61 /* DJLModule-umbrella.h in Headers */,
-				B93A270BCB3ED068DD54540491FB18CB /* StringUtil.h in Headers */,
-				EB6C2E3335378563A9E2418E1D17EF65 /* TimeUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,12 +273,12 @@
 /* Begin PBXNativeTarget section */
 		44CFF9C6D78044C770C1A90B8038C9A2 /* DJLModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F6F6A5FFE099A7F93B4342C8A42CD11 /* Build configuration list for PBXNativeTarget "DJLModule" */;
+			buildConfigurationList = EDCECEF101FB0B6499D3B7F0B07A37B3 /* Build configuration list for PBXNativeTarget "DJLModule" */;
 			buildPhases = (
-				A6DD6881D26B07DA600FA0F157ED6D4C /* Headers */,
-				1A2054D651B17F22EB40B68CDFE2B20E /* Sources */,
-				72DA42838A6A42ED6CA73FDB0327FA72 /* Frameworks */,
-				58DFF9C9C5B4D8C722F2BBD32D3F0F45 /* Resources */,
+				0BDD1527750821C55BA0E0F3687B7295 /* Headers */,
+				EF23F10290297456EDDAC83798E29A7C /* Sources */,
+				D69AD9F1ECF42649B7F861370D596A6B /* Frameworks */,
+				E6E5E460D5A988ED2FFBB4CA47F7A1E2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,7 +301,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D8B5E827D1BB43A67C518FAF95F6249A /* PBXTargetDependency */,
+				214D3F54D49E52B5ED707103BDD9260A /* PBXTargetDependency */,
 			);
 			name = "Pods-DJLModule_Example";
 			productName = "Pods-DJLModule_Example";
@@ -313,7 +320,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B4CA03E622539EAA392F718D30617E65 /* PBXTargetDependency */,
+				9988BECB637450417E11B60A3A81092B /* PBXTargetDependency */,
 			);
 			name = "Pods-DJLModule_Tests";
 			productName = "Pods-DJLModule_Tests";
@@ -357,14 +364,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58DFF9C9C5B4D8C722F2BBD32D3F0F45 /* Resources */ = {
+		B8C45088F7C476DD3050D171B6BF8B7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8C45088F7C476DD3050D171B6BF8B7E /* Resources */ = {
+		E6E5E460D5A988ED2FFBB4CA47F7A1E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,21 +381,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A2054D651B17F22EB40B68CDFE2B20E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80B373D0CEBD9E5116713B672E304077 /* DJLModule-dummy.m in Sources */,
-				36D1D25B289043C95CC007055330659E /* StringUtil.m in Sources */,
-				2730E978113F6AAF4B6F8574756A3CDC /* TimeUtil.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DDAB98649E4A2BF92A2F8535FF0C46D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				867A25507E5C4FC342A2402B6EE23B74 /* Pods-DJLModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF23F10290297456EDDAC83798E29A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF839BF0A3AA31F020337C9D41BE213 /* ACCountDown.m in Sources */,
+				9B2A2CE6F82F6FB93CF854267DFEA290 /* DJLModule-dummy.m in Sources */,
+				BCCA3FCD9E61EDA8B43F6E38BBF60A32 /* StringUtil.m in Sources */,
+				38221B54ECD0617CCD3F5BD682DC1984 /* TimeUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,17 +411,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B4CA03E622539EAA392F718D30617E65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DJLModule_Example";
-			target = A0ACEF1A631CD5C30AACFEC91921741E /* Pods-DJLModule_Example */;
-			targetProxy = 8358EE1031A2824842567AFED2C33556 /* PBXContainerItemProxy */;
-		};
-		D8B5E827D1BB43A67C518FAF95F6249A /* PBXTargetDependency */ = {
+		214D3F54D49E52B5ED707103BDD9260A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DJLModule;
 			target = 44CFF9C6D78044C770C1A90B8038C9A2 /* DJLModule */;
-			targetProxy = 024F4ADD438AF4D112D448E84A27D2FC /* PBXContainerItemProxy */;
+			targetProxy = ABC215DD0D0BB82A9CDF1503B51BCD2D /* PBXContainerItemProxy */;
+		};
+		9988BECB637450417E11B60A3A81092B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DJLModule_Example";
+			target = A0ACEF1A631CD5C30AACFEC91921741E /* Pods-DJLModule_Example */;
+			targetProxy = E82CD00FA366C3B6AE1E5502B9AE819F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,9 +492,9 @@
 			};
 			name = Debug;
 		};
-		29624F1B43ACBFA9A73DC23FE7870293 /* Debug */ = {
+		6FA830D2ADC2C3CCDAF75C84509323A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1470C2B38AF6BADF662C10173D9A59E0 /* DJLModule.debug.xcconfig */;
+			baseConfigurationReference = 478418F313DC238F2EB623F280EAA245 /* DJLModule.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -578,6 +586,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		AC819238B149AB886E2153C3D9E1E846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524A46EF55F4A39A9451E07CD3510B2B /* DJLModule.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DJLModule/DJLModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DJLModule/DJLModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DJLModule/DJLModule.modulemap";
+				PRODUCT_MODULE_NAME = DJLModule;
+				PRODUCT_NAME = DJLModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -673,37 +712,6 @@
 			};
 			name = Debug;
 		};
-		F7EAFF33EB4B1799E76D7090698A4290 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36529DA34CF233D5FA20CF360712C39 /* DJLModule.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DJLModule/DJLModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DJLModule/DJLModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DJLModule/DJLModule.modulemap";
-				PRODUCT_MODULE_NAME = DJLModule;
-				PRODUCT_NAME = DJLModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F88C1333F8087266691EACF6C28DD4A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 512874BD093BD38E84F7221B9D34FA48 /* Pods-DJLModule_Example.release.xcconfig */;
@@ -758,20 +766,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F6F6A5FFE099A7F93B4342C8A42CD11 /* Build configuration list for PBXNativeTarget "DJLModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				29624F1B43ACBFA9A73DC23FE7870293 /* Debug */,
-				F7EAFF33EB4B1799E76D7090698A4290 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		84EFC6CE7D2F232753A364B61EA1468B /* Build configuration list for PBXNativeTarget "Pods-DJLModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E584A9CA31020918356CED249ADBD9F2 /* Debug */,
 				F88C1333F8087266691EACF6C28DD4A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCECEF101FB0B6499D3B7F0B07A37B3 /* Build configuration list for PBXNativeTarget "DJLModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FA830D2ADC2C3CCDAF75C84509323A2 /* Debug */,
+				AC819238B149AB886E2153C3D9E1E846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,19 +1,19 @@
 {
   "name": "DJLModule",
-  "version": "0.1.0",
-  "summary": "A short description of DJLModule.",
+  "version": "1.1.0",
+  "summary": "我的基础组件库",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/413278730@qq.com/DJLModule",
+  "homepage": "https://github.com/413278730/DJLModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "413278730@qq.com": "dengjl@hzanchu.com"
+    "dengjl": "dengjl@hzanchu.com"
   },
   "source": {
-    "git": "https://github.com/413278730@qq.com/DJLModule.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/413278730/DJLModule.git",
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "9.0"
